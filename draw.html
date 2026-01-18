@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <title>Sorsolás</title>
+  <link rel="stylesheet" href="frontend/style.css">
+</head>
+<body>
+  <header style="display:flex; justify-content: space-between; align-items: center; margin-bottom: 30px;">
+    <h1>🎯 Sorsolás</h1>
+    <nav>
+      <a href="index.html" style="color: #eee; margin-right: 15px;">Ranglista</a>
+      <a href="stats.html" style="color: #eee; margin-right: 15px;">Statisztikák</a>
+      <a href="draw.html" style="color: #eee;">Sorsolás</a>
+    </nav>
+  </header>
+
+  <section class="panel">
+    <h2>Nevek felvétele</h2>
+    <div class="form-row">
+      <input id="participantName" type="text" placeholder="Játékos neve" />
+      <button id="addParticipant">Hozzáadás</button>
+      <button id="clearParticipants" class="button-secondary">Lista törlése</button>
+    </div>
+    <div class="participants-wrapper">
+      <ul id="participantsList" class="participants-list"></ul>
+      <div class="hint-box">
+        <p>Tip: A nevek alapján generáljuk a párosításokat. Páratlan létszámnál BYE kerül a táblázatba.</p>
+        <p>Minta JSON: <a href="frontend/draw-participants.json" target="_blank" rel="noreferrer">draw-participants.json</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel">
+    <div class="form-row">
+      <button id="generateDraw" class="button-primary">Sorsolás készítése</button>
+      <button id="downloadJson" class="button-secondary">JSON letöltése</button>
+    </div>
+    <table id="drawTable" class="draw-table">
+      <thead>
+        <tr>
+          <th>Mérkőzés</th>
+          <th>Játékos A</th>
+          <th>Játékos B</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </section>
+
+  <section class="panel">
+    <h2>Aktuális versenyzők JSON</h2>
+    <textarea id="jsonOutput" class="json-output" readonly></textarea>
+  </section>
+
+  <script src="frontend/draw.js"></script>
+</body>
+</html>

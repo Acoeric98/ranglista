@@ -1,0 +1,16 @@
+{
+  "generatedAt": "2024-06-01T12:00:00Z",
+  "participants": [
+    { "name": "Vakpali1#2432" },
+    { "name": "KeWIN#21919" },
+    { "name": "FrozenStorm#21143" },
+    { "name": "AcoericHUN#2263" },
+    { "name": "SuperGoat#21554" },
+    { "name": "DavidColt22#2364" }
+  ],
+  "matches": [
+    { "table": 1, "playerA": "Vakpali1#2432", "playerB": "DavidColt22#2364" },
+    { "table": 2, "playerA": "KeWIN#21919", "playerB": "SuperGoat#21554" },
+    { "table": 3, "playerA": "FrozenStorm#21143", "playerB": "AcoericHUN#2263" }
+  ]
+}
