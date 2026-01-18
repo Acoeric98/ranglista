@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <title>Házibajnokság</title>
+  <link rel="stylesheet" href="frontend/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏆</text></svg>">
+  <style>
+    body {
+      background: #111 url("frontend/pictures/background.png") no-repeat center center fixed;
+      background-size: cover;
+      color: #eee;
+      font-family: sans-serif;
+      padding: 20px;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid #666;
+      padding: 8px;
+      text-align: center;
+    }
+    .gold-border { border: 2px solid gold; }
+    .silver-border { border: 2px solid silver; }
+    .bronze-border { border: 2px solid #cd7f32; }
+    h1, h2 { margin-top: 40px; }
+    .heading-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 40px;
+    }
+    button {
+      background: #333;
+      color: #eee;
+      border: none;
+      padding: 8px 12px;
+      cursor: pointer;
+      font-size: 1em;
+    }
+  </style>
+</head>
+<body>
+
+  <header style="display:flex; justify-content: space-between; align-items: center; margin-bottom: 30px;">
+    <h1>🏆 Házibajnokság</h1>
+    <nav style="display:flex; gap:15px; align-items:center">
+      <a href="index.html" style="color: #eee;">Ranglista</a>
+      <a href="stats.html" style="color: #eee;">Statisztikák</a>
+      <button onclick="exportToExcel()">Letöltés Excelbe</button>
+    </nav>
+  </header>
+
+  <h2>Heti Párosítás</h2>
+  <ul id="pairingsList"></ul>
+
+  <h2>Rangsor</h2>
+  <table id="standingsTable">
+    <thead>
+      <tr>
+        <th>Helyezés</th>
+        <th>Játékos</th>
+        <th>Győzelem</th>
+        <th>Döntetlen</th>
+        <th>Vereség</th>
+	<th>Pont</th>
+        <th>Pontkülönbség</th>
+        <th>Lejátszott párbajok</th>
+        <th>Winrate</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script src="https://cdn.sheetjs.com/xlsx-latest/package/dist/xlsx.full.min.js"></script>
+  <script src="frontend/script.js"></script>
+  <script>
+    function exportToExcel() {
+      const table = document.getElementById("standingsTable");
+      const workbook = XLSX.utils.table_to_book(table, {sheet: "Rangsor"});
+      XLSX.writeFile(workbook, "rangsor.xlsx");
+    }
+  </script>
+</body>
+</html>

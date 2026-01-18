@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Válassz megállót</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #1c1c5c;
+      font-family: sans-serif;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      overflow-y: auto;
+    }
+
+    h1 {
+      margin-top: 30px;
+      font-size: 22px;
+      text-align: center;
+    }
+
+    #time {
+      font-size: 18px;
+      margin-top: 5px;
+      color: #cccccc;
+    }
+
+    #search {
+      margin-top: 20px;
+      padding: 12px;
+      font-size: 16px;
+      border-radius: 8px;
+      border: none;
+      width: 90%;
+      max-width: 400px;
+      box-sizing: border-box;
+    }
+
+    .button-container {
+      width: 90%;
+      max-width: 400px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-top: 20px;
+      padding-bottom: 40px;
+    }
+
+    .nav-button {
+      background-color: #009fe3;
+      color: white;
+      padding: 18px;
+      font-size: 18px;
+      text-align: center;
+      border: none;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.2s ease;
+    }
+
+    .nav-button:active {
+      background-color: #007bbd;
+    }
+
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Válassz megállót</h1>
+  <div id="time">Betöltés...</div>
+
+  <input type="text" id="search" placeholder="Keresés...">
+
+  <div class="button-container" id="buttonList">
+    <a href="https://futar.sznokarecords.com/?stopID=BKK_F03874" class="nav-button">Eke utca (gyál felé)</a>
+    <a href="https://futar.sznokarecords.com/?stopID=BKK_008949" class="nav-button">Központ (gyál felé)</a>
+    <a href="https://futar.sznokarecords.com/?stopID=BKK_F04606" class="nav-button">Ady Gyál (pest felé)</a>
+    <a href="https://futar.sznokarecords.com/?stopID=BKK_F03873" class="nav-button">Eke utca (pest felé)</a>
+    <!-- Bármennyi új gomb ide jöhet majd -->
+  </div>
+
+  <script>
+    // idő frissítése
+    function updateTime() {
+      const now = new Date();
+      const hours = now.getHours().toString().padStart(2, '0');
+      const minutes = now.getMinutes().toString().padStart(2, '0');
+      document.getElementById("time").textContent = `Aktuális idő: ${hours}:${minutes}`;
+    }
+
+    updateTime();
+    setInterval(updateTime, 10000);
+
+    // keresés kezelése
+    const searchInput = document.getElementById('search');
+    const buttons = document.querySelectorAll('.nav-button');
+
+    searchInput.addEventListener('input', () => {
+      const filter = searchInput.value.toLowerCase();
+      buttons.forEach(button => {
+        const text = button.textContent.toLowerCase();
+        button.classList.toggle('hidden', !text.includes(filter));
+      });
+    });
+  </script>
+</body>
+</html>

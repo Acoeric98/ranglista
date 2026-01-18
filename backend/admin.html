@@ -1,0 +1,36 @@
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin felület</title>
+  <style>
+    body { background: #111; color: #eee; font-family: sans-serif; padding: 20px; }
+    input, select, button { margin: 5px; padding: 5px; }
+    #adminContent { display: none; }
+  </style>
+</head>
+<body>
+  <h1>Admin felület</h1>
+
+  <div id="loginBox">
+    <label>Felhasználó: <input id="username" type="text"></label><br>
+    <label>Jelszó: <input id="password" type="password"></label><br>
+    <button onclick="checkLogin()">Belépés</button>
+  </div>
+
+  <div id="adminContent">
+    <h2>Új meccs rögzítése</h2>
+    <label>Játékos A: <select id="playerA"></select></label>
+    <label>Játékos B: <select id="playerB"></select></label>
+    <div id="roundInputs"></div>
+    <button onclick="submitMatch()">Mentés</button>
+
+    <h2>Heti párosítás generálása</h2>
+    <button onclick="generatePairings()">Párosítás generálása</button>
+
+    <h3>Aktuális párosítás</h3>
+    <ul id="pairingsList"></ul>
+  </div>
+
+  <script src="/frontend/admin.js"></script>
+</body>
+</html>

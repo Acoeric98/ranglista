@@ -1,0 +1,913 @@
+{
+  "totalMatches": 74,
+  "players": {
+    "DavidColt22#2364": {
+      "matches": 11,
+      "wins": 3,
+      "draws": 6,
+      "losses": 2,
+      "points": 15,
+      "roundsWon": 23,
+      "roundsTotal": 44,
+      "winrate": 52.3,
+      "opponents": [
+        {
+          "name": "SuperGoat#21554",
+          "score": "4-0",
+          "result": "win"
+        },
+        {
+          "name": "tomi2000#2473",
+          "score": "2-2",
+          "result": "draw"
+        },
+        {
+          "name": "MrJanimester#2376",
+          "score": "0-4",
+          "result": "loss"
+        },
+        {
+          "name": "FrozenStorm#21143",
+          "score": "3-1",
+          "result": "win"
+        },
+        {
+          "name": "Kelakizar#2116",
+          "score": "2-2",
+          "result": "draw"
+        },
+        {
+          "name": "TökösNővér#2301",
+          "score": "2-2",
+          "result": "draw"
+        },
+        {
+          "name": "FriendShadow#2862",
+          "score": "2-2",
+          "result": "draw"
+        },
+        {
+          "name": "AcoericHUN#2263",
+          "score": "3-1",
+          "result": "win"
+        },
+        {
+          "name": "Erdath#21390",
+          "score": "2-2",
+          "result": "draw"
+        },
+        {
+          "name": "Atum#2819",
+          "score": "2-2",
+          "result": "draw"
+        },
+        {
+          "name": "LordAthelas#21525",
+          "score": "1-3",
+          "result": "loss"
+        }
+      ]
+    },
+    "Vakpali1#2432": {
+      "matches": 11,
+      "wins": 5,
+      "draws": 3,
+      "losses": 3,
+      "points": 18,
+      "roundsWon": 23,
+      "roundsTotal": 44,
+      "winrate": 52.3,
+      "opponents": [
+        {
+          "name": "KeWIN#21919",
+          "score": "3-1",
+          "result": "win"
+        },
+        {
+          "name": "Atum#2819",
+          "score": "3-1",
+          "result": "win"
+        },
+        {
+          "name": "Kelakizar#2116",
+          "score": "2-2",
+          "result": "draw"
+        },
+        {
+          "name": "MrJanimester#2376",
+          "score": "0-4",
+          "result": "loss"
+        },
+        {
+          "name": "FriendShadow#2862",
+          "score": "3-1",
+          "result": "win"
+        },
+        {
+          "name": "Erdath#21390",
+          "score": "3-1",
+          "result": "win"
+        },
+        {
+          "name": "TökösNővér#2301",
+          "score": "0-4",
+          "result": "loss"
+        },
+        {
+          "name": "tomi2000#2473",
+          "score": "2-2",
+          "result": "draw"
+        },
+        {
+          "name": "SuperGoat#21554",
+          "score": "2-2",
+          "result": "draw"
+        },
+        {
+          "name": "LordAthelas#21525",
+          "score": "4-0",
+          "result": "win"
+        },
+        {
+          "name": "FrozenStorm#21143",
+          "score": "1-3",
+          "result": "loss"
+        }
+      ]
+    },
+    "TökösNővér#2301": {
+      "matches": 11,
+      "wins": 8,
+      "draws": 1,
+      "losses": 2,
+      "points": 25,
+      "roundsWon": 32,
+      "roundsTotal": 44,
+      "winrate": 72.7,
+      "opponents": [
+        {
+          "name": "LordAthelas#21525",
+          "score": "3-1",
+          "result": "win"
+        },
+        {
+          "name": "Kelakizar#2116",
+          "score": "1-3",
+          "result": "loss"
+        },
+        {
+          "name": "FrozenStorm#21143",
+          "score": "4-0",
+          "result": "win"
+        },
+        {
+          "name": "AcoericHUN#2263",
+          "score": "4-0",
+          "result": "win"
+        },
+        {
+          "name": "MrJanimester#2376",
+          "score": "3-1",
+          "result": "win"
+        },
+        {
+          "name": "DavidColt22#2364",
+          "score": "2-2",
+          "result": "draw"
+        },
+        {
+          "name": "Vakpali1#2432",
+          "score": "4-0",
+          "result": "win"
+        },
+        {
+          "name": "KeWIN#21919",
+          "score": "1-3",
+          "result": "loss"
+        },
+        {
+          "name": "tomi2000#2473",
+          "score": "4-0",
+          "result": "win"
+        },
+        {
+          "name": "SuperGoat#21554",
+          "score": "3-1",
+          "result": "win"
+        },
+        {
+          "name": "Atum#2819",
+          "score": "3-1",
+          "result": "win"
+        }
+      ]
+    },
+    "SuperGoat#21554": {
+      "matches": 10,
+      "wins": 2,
+      "draws": 3,
+      "losses": 5,
+      "points": 9,
+      "roundsWon": 16,
+      "roundsTotal": 40,
+      "winrate": 40.0,
+      "opponents": [
+        {
+          "name": "DavidColt22#2364",
+          "score": "0-4",
+          "result": "loss"
+        },
+        {
+          "name": "AcoericHUN#2263",
+          "score": "2-2",
+          "result": "draw"
+        },
+        {
+          "name": "tomi2000#2473",
+          "score": "3-1",
+          "result": "win"
+        },
+        {
+          "name": "KeWIN#21919",
+          "score": "1-3",
+          "result": "loss"
+        },
+        {
+          "name": "FrozenStorm#21143",
+          "score": "1-3",
+          "result": "loss"
+        },
+        {
+          "name": "Atum#2819",
+          "score": "3-1",
+          "result": "win"
+        },
+        {
+          "name": "Kelakizar#2116",
+          "score": "2-2",
+          "result": "draw"
+        },
+        {
+          "name": "FriendShadow#2862",
+          "score": "1-3",
+          "result": "loss"
+        },
+        {
+          "name": "Vakpali1#2432",
+          "score": "2-2",
+          "result": "draw"
+        },
+        {
+          "name": "TökösNővér#2301",
+          "score": "1-3",
+          "result": "loss"
+        }
+      ]
+    },
+    "tomi2000#2473": {
+      "matches": 10,
+      "wins": 1,
+      "draws": 4,
+      "losses": 5,
+      "points": 7,
+      "roundsWon": 15,
+      "roundsTotal": 40,
+      "winrate": 37.5,
+      "opponents": [
+        {
+          "name": "MrJanimester#2376",
+          "score": "2-2",
+          "result": "draw"
+        },
+        {
+          "name": "DavidColt22#2364",
+          "score": "2-2",
+          "result": "draw"
+        },
+        {
+          "name": "SuperGoat#21554",
+          "score": "1-3",
+          "result": "loss"
+        },
+        {
+          "name": "Erdath#21390",
+          "score": "0-4",
+          "result": "loss"
+        },
+        {
+          "name": "Atum#2819",
+          "score": "4-0",
+          "result": "win"
+        },
+        {
+          "name": "LordAthelas#21525",
+          "score": "2-2",
+          "result": "draw"
+        },
+        {
+          "name": "AcoericHUN#2263",
+          "score": "1-3",
+          "result": "loss"
+        },
+        {
+          "name": "Vakpali1#2432",
+          "score": "2-2",
+          "result": "draw"
+        },
+        {
+          "name": "TökösNővér#2301",
+          "score": "0-4",
+          "result": "loss"
+        },
+        {
+          "name": "FriendShadow#2862",
+          "score": "1-3",
+          "result": "loss"
+        }
+      ]
+    },
+    "Erdath#21390": {
+      "matches": 10,
+      "wins": 2,
+      "draws": 1,
+      "losses": 7,
+      "points": 7,
+      "roundsWon": 15,
+      "roundsTotal": 40,
+      "winrate": 37.5,
+      "opponents": [
+        {
+          "name": "Kelakizar#2116",
+          "score": "1-3",
+          "result": "loss"
+        },
+        {
+          "name": "FriendShadow#2862",
+          "score": "0-4",
+          "result": "loss"
+        },
+        {
+          "name": "Atum#2819",
+          "score": "3-1",
+          "result": "win"
+        },
+        {
+          "name": "tomi2000#2473",
+          "score": "4-0",
+          "result": "win"
+        },
+        {
+          "name": "KeWIN#21919",
+          "score": "1-3",
+          "result": "loss"
+        },
+        {
+          "name": "Vakpali1#2432",
+          "score": "1-3",
+          "result": "loss"
+        },
+        {
+          "name": "LordAthelas#21525",
+          "score": "1-3",
+          "result": "loss"
+        },
+        {
+          "name": "MrJanimester#2376",
+          "score": "1-3",
+          "result": "loss"
+        },
+        {
+          "name": "DavidColt22#2364",
+          "score": "2-2",
+          "result": "draw"
+        },
+        {
+          "name": "AcoericHUN#2263",
+          "score": "1-3",
+          "result": "loss"
+        }
+      ]
+    },
+    "Kelakizar#2116": {
+      "matches": 10,
+      "wins": 4,
+      "draws": 5,
+      "losses": 1,
+      "points": 17,
+      "roundsWon": 24,
+      "roundsTotal": 40,
+      "winrate": 60.0,
+      "opponents": [
+        {
+          "name": "Erdath#21390",
+          "score": "3-1",
+          "result": "win"
+        },
+        {
+          "name": "TökösNővér#2301",
+          "score": "3-1",
+          "result": "win"
+        },
+        {
+          "name": "Vakpali1#2432",
+          "score": "2-2",
+          "result": "draw"
+        },
+        {
+          "name": "FriendShadow#2862",
+          "score": "2-2",
+          "result": "draw"
+        },
+        {
+          "name": "DavidColt22#2364",
+          "score": "2-2",
+          "result": "draw"
+        },
+        {
+          "name": "FrozenStorm#21143",
+          "score": "2-2",
+          "result": "draw"
+        },
+        {
+          "name": "SuperGoat#21554",
+          "score": "2-2",
+          "result": "draw"
+        },
+        {
+          "name": "LordAthelas#21525",
+          "score": "3-1",
+          "result": "win"
+        },
+        {
+          "name": "MrJanimester#2376",
+          "score": "1-3",
+          "result": "loss"
+        },
+        {
+          "name": "KeWIN#21919",
+          "score": "4-0",
+          "result": "win"
+        }
+      ]
+    },
+    "Atum#2819": {
+      "matches": 11,
+      "wins": 0,
+      "draws": 1,
+      "losses": 10,
+      "points": 1,
+      "roundsWon": 8,
+      "roundsTotal": 44,
+      "winrate": 18.2,
+      "opponents": [
+        {
+          "name": "FriendShadow#2862",
+          "score": "1-3",
+          "result": "loss"
+        },
+        {
+          "name": "Vakpali1#2432",
+          "score": "1-3",
+          "result": "loss"
+        },
+        {
+          "name": "Erdath#21390",
+          "score": "1-3",
+          "result": "loss"
+        },
+        {
+          "name": "LordAthelas#21525",
+          "score": "1-3",
+          "result": "loss"
+        },
+        {
+          "name": "tomi2000#2473",
+          "score": "0-4",
+          "result": "loss"
+        },
+        {
+          "name": "KeWIN#21919",
+          "score": "0-4",
+          "result": "loss"
+        },
+        {
+          "name": "SuperGoat#21554",
+          "score": "1-3",
+          "result": "loss"
+        },
+        {
+          "name": "FrozenStorm#21143",
+          "score": "0-4",
+          "result": "loss"
+        },
+        {
+          "name": "AcoericHUN#2263",
+          "score": "0-4",
+          "result": "loss"
+        },
+        {
+          "name": "DavidColt22#2364",
+          "score": "2-2",
+          "result": "draw"
+        },
+        {
+          "name": "TökösNővér#2301",
+          "score": "1-3",
+          "result": "loss"
+        }
+      ]
+    },
+    "FrozenStorm#21143": {
+      "matches": 11,
+      "wins": 4,
+      "draws": 3,
+      "losses": 4,
+      "points": 15,
+      "roundsWon": 22,
+      "roundsTotal": 44,
+      "winrate": 50.0,
+      "opponents": [
+        {
+          "name": "AcoericHUN#2263",
+          "score": "1-3",
+          "result": "loss"
+        },
+        {
+          "name": "KeWIN#21919",
+          "score": "3-1",
+          "result": "win"
+        },
+        {
+          "name": "TökösNővér#2301",
+          "score": "0-4",
+          "result": "loss"
+        },
+        {
+          "name": "DavidColt22#2364",
+          "score": "1-3",
+          "result": "loss"
+        },
+        {
+          "name": "SuperGoat#21554",
+          "score": "3-1",
+          "result": "win"
+        },
+        {
+          "name": "FriendShadow#2862",
+          "score": "1-3",
+          "result": "loss"
+        },
+        {
+          "name": "Kelakizar#2116",
+          "score": "2-2",
+          "result": "draw"
+        },
+        {
+          "name": "Atum#2819",
+          "score": "4-0",
+          "result": "win"
+        },
+        {
+          "name": "LordAthelas#21525",
+          "score": "2-2",
+          "result": "draw"
+        },
+        {
+          "name": "MrJanimester#2376",
+          "score": "2-2",
+          "result": "draw"
+        },
+        {
+          "name": "Vakpali1#2432",
+          "score": "3-1",
+          "result": "win"
+        }
+      ]
+    },
+    "KeWIN#21919": {
+      "matches": 11,
+      "wins": 7,
+      "draws": 0,
+      "losses": 4,
+      "points": 21,
+      "roundsWon": 25,
+      "roundsTotal": 44,
+      "winrate": 56.8,
+      "opponents": [
+        {
+          "name": "Vakpali1#2432",
+          "score": "1-3",
+          "result": "loss"
+        },
+        {
+          "name": "FrozenStorm#21143",
+          "score": "1-3",
+          "result": "loss"
+        },
+        {
+          "name": "LordAthelas#21525",
+          "score": "3-1",
+          "result": "win"
+        },
+        {
+          "name": "SuperGoat#21554",
+          "score": "3-1",
+          "result": "win"
+        },
+        {
+          "name": "Erdath#21390",
+          "score": "3-1",
+          "result": "win"
+        },
+        {
+          "name": "Atum#2819",
+          "score": "4-0",
+          "result": "win"
+        },
+        {
+          "name": "MrJanimester#2376",
+          "score": "3-1",
+          "result": "win"
+        },
+        {
+          "name": "TökösNővér#2301",
+          "score": "3-1",
+          "result": "win"
+        },
+        {
+          "name": "FriendShadow#2862",
+          "score": "1-3",
+          "result": "loss"
+        },
+        {
+          "name": "Kelakizar#2116",
+          "score": "0-4",
+          "result": "loss"
+        },
+        {
+          "name": "AcoericHUN#2263",
+          "score": "3-1",
+          "result": "win"
+        }
+      ]
+    },
+    "FriendShadow#2862": {
+      "matches": 10,
+      "wins": 6,
+      "draws": 3,
+      "losses": 1,
+      "points": 21,
+      "roundsWon": 26,
+      "roundsTotal": 40,
+      "winrate": 65.0,
+      "opponents": [
+        {
+          "name": "Atum#2819",
+          "score": "3-1",
+          "result": "win"
+        },
+        {
+          "name": "Erdath#21390",
+          "score": "4-0",
+          "result": "win"
+        },
+        {
+          "name": "AcoericHUN#2263",
+          "score": "2-2",
+          "result": "draw"
+        },
+        {
+          "name": "Kelakizar#2116",
+          "score": "2-2",
+          "result": "draw"
+        },
+        {
+          "name": "Vakpali1#2432",
+          "score": "1-3",
+          "result": "loss"
+        },
+        {
+          "name": "FrozenStorm#21143",
+          "score": "3-1",
+          "result": "win"
+        },
+        {
+          "name": "DavidColt22#2364",
+          "score": "2-2",
+          "result": "draw"
+        },
+        {
+          "name": "SuperGoat#21554",
+          "score": "3-1",
+          "result": "win"
+        },
+        {
+          "name": "KeWIN#21919",
+          "score": "3-1",
+          "result": "win"
+        },
+        {
+          "name": "tomi2000#2473",
+          "score": "3-1",
+          "result": "win"
+        }
+      ]
+    },
+    "AcoericHUN#2263": {
+      "matches": 11,
+      "wins": 4,
+      "draws": 3,
+      "losses": 4,
+      "points": 15,
+      "roundsWon": 22,
+      "roundsTotal": 44,
+      "winrate": 50.0,
+      "opponents": [
+        {
+          "name": "FrozenStorm#21143",
+          "score": "3-1",
+          "result": "win"
+        },
+        {
+          "name": "SuperGoat#21554",
+          "score": "2-2",
+          "result": "draw"
+        },
+        {
+          "name": "FriendShadow#2862",
+          "score": "2-2",
+          "result": "draw"
+        },
+        {
+          "name": "TökösNővér#2301",
+          "score": "0-4",
+          "result": "loss"
+        },
+        {
+          "name": "LordAthelas#21525",
+          "score": "2-2",
+          "result": "draw"
+        },
+        {
+          "name": "MrJanimester#2376",
+          "score": "1-3",
+          "result": "loss"
+        },
+        {
+          "name": "tomi2000#2473",
+          "score": "3-1",
+          "result": "win"
+        },
+        {
+          "name": "DavidColt22#2364",
+          "score": "1-3",
+          "result": "loss"
+        },
+        {
+          "name": "Atum#2819",
+          "score": "4-0",
+          "result": "win"
+        },
+        {
+          "name": "Erdath#21390",
+          "score": "3-1",
+          "result": "win"
+        },
+        {
+          "name": "KeWIN#21919",
+          "score": "1-3",
+          "result": "loss"
+        }
+      ]
+    },
+    "LordAthelas#21525": {
+      "matches": 11,
+      "wins": 3,
+      "draws": 3,
+      "losses": 5,
+      "points": 12,
+      "roundsWon": 19,
+      "roundsTotal": 44,
+      "winrate": 43.2,
+      "opponents": [
+        {
+          "name": "TökösNővér#2301",
+          "score": "1-3",
+          "result": "loss"
+        },
+        {
+          "name": "MrJanimester#2376",
+          "score": "1-3",
+          "result": "loss"
+        },
+        {
+          "name": "KeWIN#21919",
+          "score": "1-3",
+          "result": "loss"
+        },
+        {
+          "name": "Atum#2819",
+          "score": "3-1",
+          "result": "win"
+        },
+        {
+          "name": "AcoericHUN#2263",
+          "score": "2-2",
+          "result": "draw"
+        },
+        {
+          "name": "tomi2000#2473",
+          "score": "2-2",
+          "result": "draw"
+        },
+        {
+          "name": "Erdath#21390",
+          "score": "3-1",
+          "result": "win"
+        },
+        {
+          "name": "Kelakizar#2116",
+          "score": "1-3",
+          "result": "loss"
+        },
+        {
+          "name": "FrozenStorm#21143",
+          "score": "2-2",
+          "result": "draw"
+        },
+        {
+          "name": "Vakpali1#2432",
+          "score": "0-4",
+          "result": "loss"
+        },
+        {
+          "name": "DavidColt22#2364",
+          "score": "3-1",
+          "result": "win"
+        }
+      ]
+    },
+    "MrJanimester#2376": {
+      "matches": 10,
+      "wins": 6,
+      "draws": 2,
+      "losses": 2,
+      "points": 20,
+      "roundsWon": 26,
+      "roundsTotal": 40,
+      "winrate": 65.0,
+      "opponents": [
+        {
+          "name": "tomi2000#2473",
+          "score": "2-2",
+          "result": "draw"
+        },
+        {
+          "name": "LordAthelas#21525",
+          "score": "3-1",
+          "result": "win"
+        },
+        {
+          "name": "DavidColt22#2364",
+          "score": "4-0",
+          "result": "win"
+        },
+        {
+          "name": "Vakpali1#2432",
+          "score": "4-0",
+          "result": "win"
+        },
+        {
+          "name": "TökösNővér#2301",
+          "score": "1-3",
+          "result": "loss"
+        },
+        {
+          "name": "AcoericHUN#2263",
+          "score": "3-1",
+          "result": "win"
+        },
+        {
+          "name": "KeWIN#21919",
+          "score": "1-3",
+          "result": "loss"
+        },
+        {
+          "name": "Erdath#21390",
+          "score": "3-1",
+          "result": "win"
+        },
+        {
+          "name": "Kelakizar#2116",
+          "score": "3-1",
+          "result": "win"
+        },
+        {
+          "name": "FrozenStorm#21143",
+          "score": "2-2",
+          "result": "draw"
+        }
+      ]
+    }
+  }
+}
