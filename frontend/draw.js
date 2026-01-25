@@ -7,7 +7,7 @@ const clearButton = document.getElementById("clearParticipants");
 const generateButton = document.getElementById("generateDraw");
 const downloadButton = document.getElementById("downloadJson");
 const participantsList = document.getElementById("participantsList");
-const drawTableBody = document.querySelector("#drawTable tbody");
+const drawBracket = document.getElementById("drawBracket");
 const jsonOutput = document.getElementById("jsonOutput");
 
 function renderParticipants() {
@@ -55,9 +55,34 @@ function removeParticipant(index) {
 
 function clearParticipants() {
   participants.splice(0, participants.length);
-  drawTableBody.innerHTML = "";
+  drawBracket.innerHTML = "";
   latestDraw = null;
   renderParticipants();
+}
+
+function nextPowerOfTwo(value) {
+  if (value <= 1) return 1;
+  return 2 ** Math.ceil(Math.log2(value));
+}
+
+function createPlayerRow(label, value) {
+  const row = document.createElement("div");
+  row.className = "player-row";
+
+  const nameSpan = document.createElement("span");
+  nameSpan.textContent = value;
+  nameSpan.className = "player-name";
+  if (value === "BYE" || value === "TBD") {
+    nameSpan.classList.add("player-placeholder");
+  }
+
+  const labelSpan = document.createElement("span");
+  labelSpan.textContent = label;
+  labelSpan.className = "player-label";
+
+  row.appendChild(labelSpan);
+  row.appendChild(nameSpan);
+  return row;
 }
 
 function shuffle(array) {
@@ -70,7 +95,7 @@ function shuffle(array) {
 }
 
 function generateDraw() {
-  drawTableBody.innerHTML = "";
+  drawBracket.innerHTML = "";
   if (participants.length === 0) {
     latestDraw = null;
     updateJsonOutput();
@@ -78,7 +103,8 @@ function generateDraw() {
   }
 
   const shuffled = shuffle(participants);
-  if (shuffled.length % 2 !== 0) {
+  const bracketSize = nextPowerOfTwo(shuffled.length);
+  while (shuffled.length < bracketSize) {
     shuffled.push("BYE");
   }
 
@@ -91,20 +117,53 @@ function generateDraw() {
     });
   }
 
-  matches.forEach(match => {
-    const row = document.createElement("tr");
-    row.innerHTML = `
-      <td>${match.table}</td>
-      <td>${match.playerA}</td>
-      <td>${match.playerB}</td>
-    `;
-    drawTableBody.appendChild(row);
+  const rounds = [matches];
+  let roundMatches = matches.length;
+  while (roundMatches > 1) {
+    const nextRound = [];
+    for (let i = 0; i < roundMatches; i += 2) {
+      nextRound.push({
+        table: nextRound.length + 1,
+        playerA: "TBD",
+        playerB: "TBD"
+      });
+    }
+    rounds.push(nextRound);
+    roundMatches = nextRound.length;
+  }
+
+  rounds.forEach((round, roundIndex) => {
+    const roundColumn = document.createElement("div");
+    roundColumn.className = "bracket-round";
+
+    const roundTitle = document.createElement("div");
+    roundTitle.className = "round-title";
+    roundTitle.textContent = `${roundIndex + 1}. forduló`;
+    roundColumn.appendChild(roundTitle);
+
+    round.forEach(match => {
+      const matchCard = document.createElement("div");
+      matchCard.className = "bracket-match";
+
+      const matchLabel = document.createElement("div");
+      matchLabel.className = "match-label";
+      matchLabel.textContent = `Meccs ${match.table}`;
+      matchCard.appendChild(matchLabel);
+
+      matchCard.appendChild(createPlayerRow("A", match.playerA));
+      matchCard.appendChild(createPlayerRow("B", match.playerB));
+
+      roundColumn.appendChild(matchCard);
+    });
+
+    drawBracket.appendChild(roundColumn);
   });
 
   latestDraw = {
     generatedAt: new Date().toISOString(),
     participants: participants.map(name => ({ name })),
-    matches
+    matches,
+    rounds
   };
 
   updateJsonOutput();
